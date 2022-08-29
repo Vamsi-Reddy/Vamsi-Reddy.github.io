@@ -1,0 +1,27 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+	text-align: center;
+}
+
+.Heading {
+	font-size: 75px;
+	color: grey;
+	margin: 10px auto;
+}
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(5, 80px);
+	grid-template-rows: repeat(6, 80px);
+	color: lightblue;
+	justify-content: center;
+}
+
+.cell {
+	border: 1px solid #ecd7ba;
+	margin: 3px;
+	caret-color: rgba(0, 0, 0, 0);
+}
